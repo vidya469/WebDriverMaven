@@ -23,7 +23,7 @@ public static WebDriver driver;
 	public void doLogin() {
 		driver.get("http://www.gmail.com");
 		driver.findElement(By.name("identifier")).sendKeys("vidyarayudu668@gmail.com");
-		driver.findElement(By.xpath("//span[@text()='Next']")).click();
+		//driver.findElement(By.xpath("//span[@text()='Next']")).click();
 		
 	}
 	
